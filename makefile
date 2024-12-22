@@ -4,7 +4,7 @@ AWS ?= aws
 
 
 export ENV=prod
-export AWS_PROFILE=app_deployment_${ENV}
+export AWS_PROFILE=default
 
 target:
 	$(info ${HELP_MESSAGE})
