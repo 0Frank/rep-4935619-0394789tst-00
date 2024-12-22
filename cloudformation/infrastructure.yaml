@@ -35,7 +35,7 @@ Resources:
       ProvisionedThroughput: 
         ReadCapacityUnits: 5
         WriteCapacityUnits: 5
-      TableName: !Sub ${prefix}${identifier}-${AWS::AccountId}-${AWS::Region}
+      TableName: !Sub ${prefix}${identifier}-g03-oc00-${AWS::AccountId}-${AWS::Region}
       Tags:
         - Key: CreatedBy
           Value: Terrafrom
