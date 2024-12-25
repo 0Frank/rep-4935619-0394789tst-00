@@ -3,7 +3,7 @@ TF ?= terraform
 AWS ?= aws
 
 
-export ENV=prod
+export ENV=dev
 export AWS_PROFILE= 
 
 target:
