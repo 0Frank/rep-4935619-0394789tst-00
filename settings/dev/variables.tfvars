@@ -1,2 +1,2 @@
 environment = "dev"
-aws_profile = "default"
+aws_profile = ""

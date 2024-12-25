@@ -4,7 +4,7 @@ AWS ?= aws
 
 
 export ENV=prod
-export AWS_PROFILE=default
+export AWS_PROFILE= 
 
 target:
 	$(info ${HELP_MESSAGE})

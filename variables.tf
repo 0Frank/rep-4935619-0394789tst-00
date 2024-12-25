@@ -14,6 +14,6 @@ variable "environment" {
 
 variable "aws_profile" {
   type        = string
-  default     = "default"
+  default     = ""
   description = "AWS profile which is used for the deployment"
 }
