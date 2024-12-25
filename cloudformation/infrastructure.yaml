@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: Test Build Infrastructure resources for persisting Terrafrom state files - g03oc
+Description: Test 01 Build Infrastructure resources for persisting Terrafrom state files - g03oc
 
 Parameters:
   prefix:
