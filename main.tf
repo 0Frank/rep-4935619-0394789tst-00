@@ -15,6 +15,6 @@ provider "aws" {
 # A simple SNS topic resources 
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_topic
 resource "aws_sns_topic" "user_updates" {
-  name              = "${var.environment}-g03-oc00-user-updates-topic"
+  name              = "${var.environment}-g03-oc01-user-updates-topic"
   kms_master_key_id = "alias/aws/sns"
 }
